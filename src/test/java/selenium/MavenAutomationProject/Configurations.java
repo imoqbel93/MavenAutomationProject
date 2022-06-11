@@ -17,7 +17,7 @@ public class Configurations {
 				System.getProperty("user.dir") + "/src/main/java/resources/geckodriver.exe");
 
 		fireFoxDriver = new FirefoxDriver();
-		fireFoxDriver.get("https://www.facebook.com/");
+		fireFoxDriver.get("https://www.google.com/");
 	}
 
 	@AfterMethod
