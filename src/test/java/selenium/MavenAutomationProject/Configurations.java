@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 public class Configurations {
 
 	WebDriver fireFoxDriver;
+	WebDriver chromeDriver;
 
 	@BeforeMethod
 	public void testSetup() {
