@@ -42,6 +42,7 @@ public class ActionsTest {
 		Thread.sleep(5000);
 
 		// Quit the whole Driver Session
+		fireFoxDriver.manage().deleteAllCookies();
 		fireFoxDriver.quit();
 	}
 
