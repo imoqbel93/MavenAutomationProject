@@ -13,7 +13,7 @@ public class ActionsTest {
 	@Test(enabled = false)
 	public void dragAndDropExampleByElement() throws InterruptedException {
 
-		// Setting the Chrome WebDriver
+		// Setting the WebDriver to be Chrome WebDriver
 		System.setProperty("webdriver.gecko.driver",
 				"C:\\Users\\LAB-3C-PC-5\\Documents\\FireFoxDriver\\geckodriver.exe");
 
